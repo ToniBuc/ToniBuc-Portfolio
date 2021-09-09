@@ -26,9 +26,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Portfolio">Portfolio</a>
                         </li>
-                        @*<li class="nav-item">
-                            <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>*@
                     </ul>
                 </div>
             </div>
@@ -58,5 +55,11 @@
     nav a {
         text-shadow: 8px 8px 6px black;
         margin-left:20px;
+    }
+    html {
+        margin-right: calc(100% - 100vw);
+    }
+    body {
+        overflow-x: hidden;
     }
 </style>
